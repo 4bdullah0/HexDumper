@@ -1,0 +1,17 @@
+.{
+    .name = .HexDumper,
+    .version = "0.0.0",
+    .fingerprint = 0x5a086a9b36fa2005, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0-dev.3133+5ec8e45f3",
+    .dependencies = .{
+        .clap = .{
+            .url = "git+https://github.com/Hejsil/zig-clap#fc1e5cc3f6d9d3001112385ee6256d694e959d2f",
+            .hash = "clap-0.11.0-oBajB7foAQC3Iyn4IVCkUdYaOVVng5IZkSncySTjNig1",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
